@@ -163,20 +163,25 @@ provided_config_lines=(
     "CONFIG_COREMARK_OPTIMIZE_O3=y"
     "CONFIG_COREMARK_ENABLE_MULTITHREADING=y"
     "CONFIG_COREMARK_NUMBER_OF_THREADS=6"
-    #"CONFIG_PACKAGE_luci-theme-design=y"
+    "CONFIG_PACKAGE_luci-theme-design=y"
+    "CONFIG_PACKAGE_luci-theme-argon=y"
     "CONFIG_PACKAGE_luci-app-filetransfer=y"
     "CONFIG_PACKAGE_openssh-sftp-server=y"
     "CONFIG_OPKG_USE_CURL=y"
     "CONFIG_PACKAGE_opkg=y"   
     "CONFIG_USE_APK=n"
     #"CONFIG_PACKAGE_luci-app-msd_lite=y"
-    #"CONFIG_PACKAGE_luci-app-lucky=y"
+    "CONFIG_PACKAGE_luci-app-lucky=y"
 	"CONFIG_PACKAGE_kmod-wireguard=y"
     "CONFIG_PACKAGE_wireguard-tools=y"
 	"CONFIG_PACKAGE_luci-proto-wireguard=y"
     "CONFIG_PACKAGE_wget=y"
     "CONFIG_PACKAGE_wget-ssl=y"
 	"CONFIG_PACKAGE_coreutils-base64=y"
+    "CONFIG_PACKAGE_luci-app-unblockneteasemusic=y"
+    "CONFIG_PACKAGE_luci-app-smartdns=y"
+
+	
 )
 
 #[[ $WRT_CONFIG == *"WIFI-NO"* ]] && provided_config_lines+=("CONFIG_PACKAGE_hostapd-common=n" "CONFIG_PACKAGE_wpad-openssl=n")
